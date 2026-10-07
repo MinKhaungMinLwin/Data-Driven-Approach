@@ -1,0 +1,11 @@
+Transformational AI: Analyzing Ecommerce Large Datasets for Machine Learning
+Completed by: Student
+—————————————-
+
+Question 1: The reviews data has 100 rows with rating, title, review text, images, product identifiers, user ID, timestamp, helpful votes, and verified-purchase status. Numeric fields use integer or floating-point types, text and nested image data use object types, and verified_purchase is Boolean. Each row represents one customer review.
+Question 2: Yes. reviews_df.head() returns the first five review records by default, together with all available columns. Some long text and nested values are truncated for display.
+Question 3: We set pandas display options to show every column, increase the available display width, and limit very long cell text. We then passed Items_To_Print (10) to head() so the output contains only the first ten rows.
+Question 4: The reviews DataFrame records customer interactions such as ratings, text, votes, users, and timestamps. The metadata DataFrame describes products, including titles, average ratings, rating counts, prices, features, categories, images, and product details.
+Question 5: The info() method is the most useful quick summary because it shows row counts, column names, non-null counts, data types, and memory usage in one compact output.
+Question 6: The price distribution is right-skewed: most highly rated products are concentrated at lower prices, while a small number of more expensive products form a long tail.
+Question 7: Within this 100-product sample, the scatterplot does not show a strong relationship between price and average rating. Highly rated products occur across several price points.
