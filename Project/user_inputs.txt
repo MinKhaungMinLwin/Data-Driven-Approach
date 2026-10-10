@@ -1,5 +1,5 @@
 Transformational AI: Analyzing Ecommerce Large Datasets for Machine Learning
-Completed by: Student
+Completed by: Min Khaung Min Lwin
 —————————————-
 
 Question 1: The reviews data has 100 rows with rating, title, review text, images, product identifiers, user ID, timestamp, helpful votes, and verified-purchase status. Numeric fields use integer or floating-point types, text and nested image data use object types, and verified_purchase is Boolean. Each row represents one customer review.
